@@ -2,7 +2,7 @@ package exo2;
 
 public class PointNom extends Point {
   public PointNom(int x, int y, String nom){
-    setPointnom(x, y, nom);
+    setPointNom(x, y, nom);
   }
   
   private String nom;
@@ -18,7 +18,7 @@ public class PointNom extends Point {
 
   public void affCoordsNom(){
     afficheCoords();
-    System;out.println("Nom = " + nom);
+    System.out.println("Nom = " + nom);
   }
   
 }
